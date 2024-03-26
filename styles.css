@@ -1,0 +1,35 @@
+body {
+p {
+    background-color: goldenrod;
+};
+
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+h1{ 
+ color: blue;
+ font-size: 50px;
+}
+
+ .parrafo{
+    display: flex;
+    justify-content: center; /*centra horizontalmente */
+    margin-bottom: 20px;
+    
+ }
+p{ color: red;
+    text-align: center;
+    max-width: 300px;
+    margin: 0;
+    font-size: 30px;
+}
+.imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; /*cambia el ancho de la imagen*/
+    height: 200px; /*cambia la altura de la imagen/*
+
+}
